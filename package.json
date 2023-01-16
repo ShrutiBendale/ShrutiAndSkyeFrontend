@@ -1,0 +1,23 @@
+{
+  "name": "shrutiandskyefrontend",
+  "version": "1.0.0",
+  "description": "This repo contains the frontend code for shrutiandskye.com",
+  "main": "index.html",
+  "scripts": {
+    "localhost": "open-cli index.html", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShrutiBendale/ShrutiAndSkyeFrontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShrutiBendale/ShrutiAndSkyeFrontend/issues"
+  },
+  "homepage": "https://github.com/ShrutiBendale/ShrutiAndSkyeFrontend/index.html",
+  "devDependencies": {
+    "open-cli": "^7.1.0"
+  }
+}
