@@ -1,0 +1,74 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+.typewriter {
+    color: var(--color-accent);
+    width: auto;
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid var(--color-accent); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .2em; /* Adjust as needed */
+    animation: 
+    typing 5.5s steps(40, end) infinite,
+    blink-caret 0.75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    0% { max-width:0 }
+    25% { max-width: 70% }
+    48% { max-width: 100% }
+    50% { max-width: 100% }
+    55% { max-width: 100% }
+    75% { max-width: 70%; }
+    85% { max-width: 30%; }
+    100% { max-width: 0; }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--color-primary); }
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    padding-left: 3rem;
+}
+
+.socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.me {
+    background: linear-gradient(var(--color-primary-variant), transparent);
+    object-fit: cover;
+    /* width: 22rem; */
+    /* height: 30rem; */
+    /* position: relative; */
+    /* left: 50%; */
+    transform: translateX(50);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0 ;
+}
