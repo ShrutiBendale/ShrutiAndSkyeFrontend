@@ -13,5 +13,4 @@ phases:
       - echo Build started on `date`
       - npm prune --production
     finally:
-      commands:
-        - echo Build completed on `date`  
+      - echo Build completed on `date`  
