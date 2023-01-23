@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/ShrutiBendale/ShrutiAndSkyeFrontend/issues"
   },
-  "homepage": "https://github.com/ShrutiBendale/ShrutiAndSkyeFrontend/index.html",
   "devDependencies": {
     "open-cli": "^7.1.0"
   },
