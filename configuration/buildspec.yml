@@ -5,6 +5,7 @@ phases:
       nodejs: 12
     commands:
       - npm install
+      - npm run build
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
