@@ -11,3 +11,6 @@ run `npm start` to test the code locally in your browser
 #### Notes:
 
 Any commit to the main branch will automatically trigger the CI/CD pipeline and deploy the code to the s3 bucket that hosts the website.
+
+References:
+https://www.bluelabellabs.com/blog/deploy-reactjs-app-aws-s3-cloudfront/
