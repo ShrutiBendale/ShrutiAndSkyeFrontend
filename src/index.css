@@ -12,11 +12,11 @@
 
 /*defining some root variables*/
 :root {
-    --color-bg: #dfdbd8 ;
+    --color-bg: #ffffff ; /*dfdbd8*/
     --color-bg-variant: #9c7e71 ;
-    --color-primary: #1b6c58 ; 
-    --color-primary-variant: #78a499 ;
-    --color-accent: #894d33 ;
+    --color-primary: #3b5480 ;  /*1b6c58*/
+    --color-primary-variant: #a5bfcdb1 ; /*789b9293, */
+    --color-accent: #77432c ;
     --color-white: #ffffff ;
     --color-light: #dedcde ; 
 
@@ -81,7 +81,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-primary-variant);
 }
 
 .btn {

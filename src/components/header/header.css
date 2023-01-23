@@ -73,7 +73,7 @@ header {
     position: relative;
 }
 
-.header_right {
+.header_mid {
     background: linear-gradient(var(--color-primary-variant), var(--color-primary-variant)) ;
     padding-left: 20%;
     height: auto;  
@@ -86,7 +86,8 @@ header {
     margin-top: 4rem;
     border-radius: 17rem 12rem 17rem 12rem ;
 }
-.header_right > img {
+
+.header_mid > img {
     padding-left: 20%;
     max-width: 70%;  
     height: auto;  
@@ -107,6 +108,17 @@ header {
     position: relative;
     padding-left: 5%;
 } */
+
+.header_center_left {
+    display: flexbox;
+    justify-content: left;
+    /* justify-items: left; */
+    position: absolute;
+    padding-top: 8rem;
+    width: 35%;
+    color: var(--color-accent);
+    
+}
 
 .header_bottom {
     position:fixed;
