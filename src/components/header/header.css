@@ -195,14 +195,12 @@ header {
     }
 
     .header_mid_text {
-        /* display: none; */
-        /* display: inline; */
         width: 100%;
         position: absolute;
         left: 0;
         right: 0;
 
-        padding-top:70%;
+        padding-top:65%;
         font-size: 3.5vi;
 
     }
