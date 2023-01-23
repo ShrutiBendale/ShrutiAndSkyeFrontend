@@ -9,6 +9,7 @@ const Header = () => {
    <header>
     <div className="containier header_container">
       <div className='header_top'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 "/> 
         <h5>Hello there, I am</h5>
         <h1>Shruti</h1>
         <div className="typewriter">
@@ -21,7 +22,7 @@ const Header = () => {
       </div>       */}
 
       <div className="header_mid">
-        <div className='header_center_left'>
+        <div className='header_mid_text'>
           <h4>
             I created this website to learn new technologies related to frontend and backend development. 
             I will be using this page as a collection of links to all my projects and source code. 
@@ -40,9 +41,13 @@ const Header = () => {
 
     
       <div className='header_bottom'>
-        <a href="#contact"><AiOutlineDownCircle/></a>
+        <a href="#contact" className='scroll_down'><AiOutlineDownCircle/></a>
       </div>
-      <Socials/>
+      
+      <div className='header_socials'>
+        <Socials/>
+      </div>
+      
 
     </div>
    </header>

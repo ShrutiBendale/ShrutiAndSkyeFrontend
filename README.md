@@ -6,7 +6,10 @@ I have a CI/CD pipeline set up that builds this React app and deploys the assets
 
 #### Local testing:
 
-run `npm start` to test the code locally in your browser
+- Run `npm start` to test the code locally in your browser
+- To test the prod build assets locally:
+  1. Run `npm run build`, this will create build folder with the static assets
+  2. Run `serve -s build` an open the link in the terminal in the browser to verify the changes.
 
 #### Notes:
 
