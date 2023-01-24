@@ -148,11 +148,19 @@ header {
     }
 
     .header_mid_text {
-        padding-top: 50%;
+        /* padding-top: 50%;
         width: 60%;
         position: absolute;
-        margin-left:  0;
+        margin-left: 0;
+        left: 50 */
 
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        padding-top:50%;
+        font-size: 2.3vi;
     }
 
     .socials {
