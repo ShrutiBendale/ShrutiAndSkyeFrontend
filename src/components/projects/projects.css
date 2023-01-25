@@ -5,6 +5,7 @@ padding-bottom: 1.5rem;
 
 .projects_container {
     height: 80vh;
+    
     background: var(--color-bg-variant);
     border-radius: 12rem 17rem 12rem 17rem ;
     align-items: center; 
@@ -13,7 +14,155 @@ padding-bottom: 1.5rem;
     margin-right:7vw; 
 }
 
-/* media queries for small devices -> ex: phones */
+.cards {
+    display: inline-grid;
+    grid-auto-flow: row;
+    width: 75%;
+    height: 73vh;
+    margin-left:13%;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-top: 2rem;
+
+  }
+  
+  .card {
+    display: flex;
+    height: 30vh;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.464);
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 25%);
+    scroll-snap-align: start;
+    /* transition: all 0.2s; */
+    position:relative;
+  }
+  
+  .card:hover {
+    color: var( --color-accent);
+    background: var(--color-primary-variant);
+    opacity: 70%;
+  }
+  
+  .card .card-title {
+    font-size: 20px;
+    margin-left: 3rem;
+  }
+  
+  .card .card-content .card-text{
+    margin-left: 3rem;
+    height: 15vh;
+    width: 35vw;
+  }
+
+  .card .card-content .card-img {
+    width: 20vw;
+    height: 19vh;
+    /* max-height: %; */
+    margin-right: 3rem;
+    overflow:hidden;
+    right:0;
+    position: absolute;
+  }
+  
+  .card .card-content .card-img > img {
+    width: 20vw;
+    height: 19vh;
+    object-fit: "cover";
+    
+  }
+
+  .card .card-link-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: bottom;    
+    gap: 1rem;
+    position: absolute;
+    margin-left: 3rem;
+  }
+  
+  .card .card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-accent);
+    background: var(--color-primary-variant);
+    padding: 6px 12px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 12%);
+    position: relative;
+  }
+  
+  .card:hover .card-link {
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  .card-link:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 30%);
+  }
+  
+  /* .cards::-webkit-scrollbar {
+    height: 12px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb,
+  .cards::-webkit-scrollbar-track {
+    border-radius: 92px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb {
+    background: var(--darkorange);
+  }
+  
+  .cards::-webkit-scrollbar-track {
+    background: var(--thumb);
+  } */
+  
+  @media screen and (max-width: 1024px) {
+    .projects_header {
+        padding-top: 2rem;
+    }
+
+    .cards {
+        width: 70%;
+        height: 68vh;
+        margin-left: 15%;
+        list-style: none;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        margin-top: 3.5rem;
+    
+    }
+    .card {
+        height: 30vh;
+    }
+
+    .card .card-title {
+        font-size: 20px;
+        margin-left: 1rem;
+
+    }
+
+    .card .card-content .card-text{
+        margin-left: 1rem;
+        height: 15vh;
+        width: 30vw;
+      }
+    }
+
+    .card .card-link-wrapper {
+        /* margin-top: auto; */
+        display: flex;
+        justify-content: bottom;    
+        gap: 0.5rem;
+        position: absolute;
+        margin-left: 1rem;
+    }
+
+  /* media queries for small devices -> ex: phones */
 @media screen and (max-width: 600px) {
     .projects_header {
         padding-top: 2rem;
@@ -23,4 +172,75 @@ padding-bottom: 1.5rem;
         align-items: center; 
 
     }
+
+    .cards {
+        display: inline-grid;
+        grid-auto-flow: row;
+        width: 65vw;
+        height: 70vh;
+        margin-left: 4vh;
+        list-style: none;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        margin-top: 2rem;
+    
+    }
+    .card {
+        height: 40vh;
+
+    }
+
+    .card .card-title {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .card .card-content .card-text{
+        height:8vh;
+        width: 105%;
+        text-align: center;
+        margin-left: 0rem;
+        overflow: hidden;
+        
+      }
+
+
+    .card .card-link-wrapper {
+        /* margin-top: auto; */
+        display: flex;
+        gap: 0.5rem;
+        position: absolute;
+        align-items: center;
+    }
+
+    /* .card .card-img > img {
+        display: none;
+
+    } */
+
+    .card .card-content .card-img {
+        width:90%;
+        /* height: 50vh; */
+        /* max-height: 100%; */
+        margin-right: 0.9rem;
+        margin-bottom: 0.5rem;
+        overflow:hidden;
+        position: absolute;
+        align-items: center;
+        bottom: 0;
+      }
+      
+      .card .card-content .card-img > img {
+        width: 100%;
+        height: 19vh;
+        object-fit: "fill";
+        
+        
+      }
 }
+
+    
+    
+
+  

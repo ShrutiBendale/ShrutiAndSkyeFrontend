@@ -14,6 +14,7 @@ nav {
 nav a.active  {
     color: var(--color-white);
     background: var( --color-primary-variant);
+    opacity: 70%;
     border-radius: 50%;
     width: max-content;
     padding: 0.1rem 0.55rem;
