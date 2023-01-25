@@ -13,12 +13,12 @@
 /*defining some root variables*/
 :root {
     --color-bg: #ffffff ; /*dfdbd8*/
-    --color-bg-variant: #9c7e71 ;
+    --color-bg-variant: #bf927e ;
     --color-primary: #3b5480 ;  /*1b6c58*/
     --color-primary-variant: #a5bfcdb1 ; /*789b9293, */
     --color-accent: #77432c ;
     --color-white: #ffffff ;
-    --color-light: #dedcde ; 
+    --color-light: #e8f5fd ; 
 
     --transition: all 400ms ease;
 

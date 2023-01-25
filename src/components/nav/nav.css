@@ -1,0 +1,47 @@
+nav {
+    /* background: var(--color-light); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    top: 0;
+    right:0;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+nav a.active  {
+    color: var(--color-white);
+    background: var( --color-primary-variant);
+    border-radius: 50%;
+    width: max-content;
+    padding: 0.1rem 0.55rem;
+    /* display: block; */
+    /* height: max-content; */
+}
+
+nav::before {
+    content: '';
+    width: 1px;
+    height:2rem;
+    background: var(--color-accent);
+
+}
+
+nav::after {
+    content: '';
+    width: 1px;
+    height:2rem;
+    background: var(--color-accent);
+}
+
+
+
+/* media queries for small devices -> ex: phones */
+@media screen and (max-width: 600px) {
+    nav {
+        gap: 0.2rem;
+        padding-right: 1rem;
+    }
+}
