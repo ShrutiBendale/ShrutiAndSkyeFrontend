@@ -41,7 +41,7 @@ const Header = () => {
 
     
       <div className='header_bottom'>
-        <a href="#contact" className='scroll_down'><AiOutlineDownCircle/></a>
+        {/* <a href="#contact" className='scroll_down'><AiOutlineDownCircle/></a> */}
       </div>
       
       <div className='header_socials'>

@@ -3,6 +3,7 @@ import Contact from './components/contact/Contact'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import Projects from './components/projects/Projects'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Nav/>
     <Projects/>
     <Contact/>
+    <Footer/>
 
     </>
   )

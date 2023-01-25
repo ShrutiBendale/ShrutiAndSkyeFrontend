@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './nav.css'
 import { AiOutlineHome, AiOutlineProject, AiOutlineUser } from 'react-icons/ai'
 
+//todo:  update the correct nav icon background as we scroll through components
 const Nav = () => {
     const [activeNav,setActiveNav] = useState('#');
     return (
