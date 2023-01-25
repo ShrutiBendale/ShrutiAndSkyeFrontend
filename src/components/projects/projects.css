@@ -1,0 +1,26 @@
+.projects_header {
+text-align: center;
+padding-bottom: 1.5rem;
+}
+
+.projects_container {
+    height: 80vh;
+    background: var(--color-bg-variant);
+    border-radius: 12rem 17rem 12rem 17rem ;
+    align-items: center; 
+    font-size: 0.9rem;
+    margin-left:7vw; 
+    margin-right:7vw; 
+}
+
+/* media queries for small devices -> ex: phones */
+@media screen and (max-width: 600px) {
+    .projects_header {
+        padding-top: 2rem;
+    }
+    .projects_container {
+        border-radius: 5rem 8rem 5rem 8rem ;
+        align-items: center; 
+
+    }
+}

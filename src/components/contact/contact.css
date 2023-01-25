@@ -1,0 +1,23 @@
+.contact_header {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+    
+.contact_container {
+    height: 80vh;
+    align-items: center; 
+    font-size: 0.9rem;
+    margin-left:7vw; 
+    margin-right:7vw; 
+}
+
+/* media queries for small devices -> ex: phones */
+@media screen and (max-width: 600px) {
+    .contact_header {
+        padding-top: 2rem;
+    }
+    .contact_container {
+        align-items: center; 
+
+    }
+}
