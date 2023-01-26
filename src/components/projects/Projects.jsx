@@ -14,13 +14,13 @@ const Projects = () => {
         <ul className="cards">
           <li className="card">
             <div>
-              <h3 className="card-title">Project 1</h3>
+              <h3 className="card-title">Music Streaming App</h3>
               <div className="card-content">
                 <div className="card-img">
                   <img src={project1} alt="project 1" />
                 </div> 
                 <div className="card-text">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>This project is currently under works, please check back in a couple of days :&#41;</p>
                 </div>
                 <div className="card-link-wrapper">
                   <a href="" className="card-link">Live Demo</a>
@@ -31,13 +31,13 @@ const Projects = () => {
           </li>
           <li className="card">
             <div>
-              <h3 className="card-title">Project2</h3>
+              <h3 className="card-title">Collaborative Picture Board</h3>
               <div className="card-content">
                 <div className="card-img">
                   <img src={project2} alt="project2" />
                 </div> 
                 <div className="card-text">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>This project is currently under works, please check back in a couple of weeks :&#41;</p>
                 </div>
                 <div className="card-link-wrapper">
                   <a href="" className="card-link">Live Demo</a>
@@ -48,13 +48,13 @@ const Projects = () => {
           </li>
           <li className="card">
             <div>
-              <h3 className="card-title">Project 3</h3>
+              <h3 className="card-title">Awesome Future Project</h3>
               <div className="card-content">
                 <div className="card-img">
                   <img src={project3} alt="project 3" />
                 </div> 
                 <div className="card-text">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>This project is currently under works, please check back in a couple of months :&#41;</p>
                 </div>
                 <div className="card-link-wrapper">
                   <a href="" className="card-link">Live Demo</a>
