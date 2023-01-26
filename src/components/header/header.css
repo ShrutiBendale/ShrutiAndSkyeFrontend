@@ -1,13 +1,13 @@
 header {
-    height: 120vh;
-    padding-top: 5rem;
     overflow: hidden;
 }
 
 .header_container {
+    padding-top: 3rem;
     text-align: center;
     height: 100%;
     position: relative;
+    height: 120vh;
 }
 
 
@@ -51,6 +51,7 @@ header {
     position: absolute;
     top: 0;
     padding-left: 3rem;
+    padding-top: 3rem;
 }
 
 .socials::before {

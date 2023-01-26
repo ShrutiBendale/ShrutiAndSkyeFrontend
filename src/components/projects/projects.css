@@ -39,6 +39,7 @@ padding-bottom: 1.5rem;
     scroll-snap-align: start;
     /* transition: all 0.2s; */
     position:relative;
+    margin-right: 10px;
   }
   
   .card:hover {
@@ -49,11 +50,11 @@ padding-bottom: 1.5rem;
   
   .card .card-title {
     font-size: 20px;
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
   
   .card .card-content .card-text{
-    margin-left: 3rem;
+    margin-left: 1rem;
     height: 15vh;
     width: 35vw;
   }
@@ -104,22 +105,31 @@ padding-bottom: 1.5rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 30%);
   }
   
-  /* .cards::-webkit-scrollbar {
+  .cards::-webkit-scrollbar {
     height: 12px;
+  }
+
+  .cards::-webkit-scrollbar:horizontal {
+    display: none;
+  }
+
+  .cards::-webkit-scrollbar:vertical {
+    width: 8px;
+    
   }
   
   .cards::-webkit-scrollbar-thumb,
   .cards::-webkit-scrollbar-track {
-    border-radius: 92px;
+    border-radius: 100px;
   }
   
   .cards::-webkit-scrollbar-thumb {
-    background: var(--darkorange);
+    background: var(--color-primary-variant);
   }
   
   .cards::-webkit-scrollbar-track {
-    background: var(--thumb);
-  } */
+    background: rgba(255, 255, 255, 0.156); 
+  }
   
   @media screen and (max-width: 1024px) {
     .projects_header {
@@ -131,8 +141,8 @@ padding-bottom: 1.5rem;
         height: 68vh;
         margin-left: 15%;
         list-style: none;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        /* overflow-x: scroll;
+        className-snap-type: x mandatory; */
         margin-top: 3.5rem;
     
     }
@@ -180,9 +190,8 @@ padding-bottom: 1.5rem;
         height: 70vh;
         margin-left: 4vh;
         list-style: none;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
         margin-top: 2rem;
+        margin-left: 12vw;
     
     }
     .card {
@@ -192,14 +201,14 @@ padding-bottom: 1.5rem;
 
     .card .card-title {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
         margin-left: 0rem;
     }
 
     .card .card-content .card-text{
         height:8vh;
         width: 105%;
-        text-align: center;
+        text-align: left;
         margin-left: 0rem;
         overflow: hidden;
         
@@ -207,11 +216,10 @@ padding-bottom: 1.5rem;
 
 
     .card .card-link-wrapper {
-        /* margin-top: auto; */
         display: flex;
         gap: 0.5rem;
         position: absolute;
-        align-items: center;
+        left:0;
     }
 
     /* .card .card-img > img {

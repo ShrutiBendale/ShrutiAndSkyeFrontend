@@ -6,7 +6,7 @@ import {AiOutlineDownCircle} from 'react-icons/ai';
 
 const Header = () => {
   return (
-   <header>
+    <section>
     <div className="containier header_container">
       <div className='header_top'>
       <meta name="viewport" content="width=device-width, initial-scale=1.0 "/> 
@@ -50,7 +50,7 @@ const Header = () => {
       
 
     </div>
-   </header>
+    </section>
   )
 }
 

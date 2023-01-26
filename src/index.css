@@ -28,12 +28,8 @@
 }
  
 html {
-    scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
+    scroll-snap-type: y mandatory;
+  }
 
 body {
     font-family: 'Dosis', sans-serif;
@@ -111,6 +107,26 @@ img  {
     width: 100%;
     object-fit: cover;
 }
+  
+  section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  
+  /* section:nth-of-type(even) {
+    color: white;
+    background: black;
+  }
+  
+  section:nth-of-type(odd) {
+    color: black;
+    background: white;
+  } */
+
 
 /* media queries for medium devices -> ex: tablets */
 @media screen and (max-width: 1024px) {
