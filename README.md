@@ -13,7 +13,7 @@ I have a CI/CD pipeline set up that builds this React app and deploys the assets
 
 #### Notes:
 
-Any commit to the main branch will automatically trigger the CI/CD pipeline and deploy the code to the s3 bucket that hosts the website.
+Any commit to the main branch will automatically trigger a build in the CI/CD pipeline and deploy the build assets to the s3 bucket that hosts the website.
 
 #### References:
 
