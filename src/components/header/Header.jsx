@@ -16,10 +16,6 @@ const Header = () => {
           <h5>I am a Software Engineer</h5>
         </div>
       </div>
-      
-      {/* <div className="header_left">
-        <h2>Hi</h2>
-      </div>       */}
 
       <div className="header_mid">
         <div className='header_mid_text'>
@@ -47,8 +43,6 @@ const Header = () => {
       <div className='header_socials'>
         <Socials/>
       </div>
-      
-
     </div>
     </section>
   )
