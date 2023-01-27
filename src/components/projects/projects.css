@@ -18,12 +18,12 @@ padding-bottom: 1.5rem;
     display: inline-grid;
     grid-auto-flow: row;
     width: 75%;
-    height: 73vh;
+    height: 70vh;
     margin-left:13%;
     list-style: none;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 
   }
   
