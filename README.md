@@ -4,7 +4,7 @@ This repo contains the frontend code for the landing page of https://shrutiandsk
 
 I have a CI/CD pipeline set up that builds this React app and deploys the assets to a AWS S3 bucket that hosts the static assets. The assets are distributed via the AWS CloudFront CDN.
 
-#### Local testing:
+#### Testing:
 
 - Run `npm start` to test the code locally in your browser
 - To test the prod build assets locally:
