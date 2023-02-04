@@ -24,8 +24,8 @@ const Projects = () => {
                   In the meantime, follow the progress of this project on my GitHub.</p>
                 </div>
                 <div className="card-link-wrapper">
-                  <a href="" className="card-link">Live Demo</a>
-                  <a href="https://github.com/ShrutiBendale" target="_blank" className="card-link">GitHub</a>
+                  <a href="https://melodize.shrutiandskye.com" target="_blank" className="card-link">Live Demo</a>
+                  <a href="https://github.com/ShrutiBendale/MusicStreamingFrontend" target="_blank" className="card-link">GitHub</a>
                 </div>
               </div> 
             </div>
