@@ -23,13 +23,14 @@ padding-bottom: 1.5rem;
     height: 70vh;
     margin-left:10.5%;
     list-style: none;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 17rem;
 
   }
   
   .card {
     display: flex;
-    height: 27vh;
+    height: 30vh;
     padding: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
