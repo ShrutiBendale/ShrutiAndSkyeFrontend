@@ -34,7 +34,7 @@ padding-bottom: 1.5rem;
     padding: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background: rgba(255, 255, 255, 0.464);
+    background: rgba(255, 255, 255, 0.729);
     border-radius: 18px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 25%);
     scroll-snap-align: start;
@@ -62,19 +62,20 @@ padding-bottom: 1.5rem;
 
   .card .card-content .card-img {
     width: 20vw;
-    height: 19vh;
+    height: 20vh;
     /* max-height: %; */
     margin-right: 3rem;
     overflow:hidden;
     right:0;
     position: absolute;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 20%); 
   }
   
   .card .card-content .card-img > img {
     width: 20vw;
     height: 19vh;
-    object-fit: "cover";
-    
+    object-fit: fill;
   }
 
   .card .card-link-wrapper {
