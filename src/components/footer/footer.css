@@ -6,6 +6,7 @@
     font-size: 0.9rem;
     margin-top: 7rem; 
     z-index: 100; 
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.193);
 }
 
 .footer_logo {

@@ -17,6 +17,7 @@
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     z-index: 100;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.193);
 }
 
 .cards {

@@ -72,6 +72,7 @@ header {
     text-align: center;
     height: 20%;
     position: relative;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.193);
 }
 
 .header_mid {
@@ -86,6 +87,7 @@ header {
     margin-top: 4rem;
     border-radius: 17rem 12rem 17rem 12rem ;
     position: relative;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.193);
 }
 
 .header_mid > img {
