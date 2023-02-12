@@ -1,9 +1,11 @@
 .footer {
+    position: relative;
     background: var( --color-primary-variant);
     border-radius: 17rem 17rem 0 0 ;
     text-align:center;  
     font-size: 0.9rem;
-    margin-top: 7rem;  
+    margin-top: 7rem; 
+    z-index: 100; 
 }
 
 .footer_logo {

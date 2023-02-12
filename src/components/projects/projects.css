@@ -1,11 +1,13 @@
 .projects_header {
-text-align: center;
-padding-bottom: 1.5rem;
+  position: relative;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  z-index: 100;
 }
 
 .projects_container {
     height: 80vh;
-    
+    position: relative;
     background: var(--color-bg-variant);
     border-radius: 12rem 17rem 12rem 17rem ;
     align-items: center; 
@@ -14,6 +16,7 @@ padding-bottom: 1.5rem;
     margin-right:7vw; 
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    z-index: 100;
 }
 
 .cards {
