@@ -12,24 +12,24 @@ padding-bottom: 1.5rem;
     font-size: 0.9rem;
     margin-left:7vw; 
     margin-right:7vw; 
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 .cards {
     display: inline-grid;
     grid-auto-flow: row;
-    width: 75%;
+    width: 80%;
     height: 70vh;
-    margin-left:13%;
+    margin-left:10.5%;
     list-style: none;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
     margin-top: 2.5rem;
 
   }
   
   .card {
     display: flex;
-    height: 30vh;
+    height: 27vh;
     padding: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -186,16 +186,15 @@ padding-bottom: 1.5rem;
     .cards {
         display: inline-grid;
         grid-auto-flow: row;
-        width: 65vw;
+        width: 70vw;
         height: 70vh;
-        margin-left: 4vh;
         list-style: none;
         margin-top: 2rem;
-        margin-left: 12vw;
+        margin-left: 10vw;
     
     }
     .card {
-        height: 40vh;
+        height: 50vh;
 
     }
 
@@ -205,12 +204,17 @@ padding-bottom: 1.5rem;
         margin-left: 0rem;
     }
 
+    .card .card-content {
+      height: 16vh;
+      overflow: hidden;
+      /* background: red; */
+    }
+
     .card .card-content .card-text{
         height:8vh;
         width: 105%;
         text-align: left;
         margin-left: 0rem;
-        overflow: hidden;
         
       }
 
@@ -220,6 +224,10 @@ padding-bottom: 1.5rem;
         gap: 0.5rem;
         position: absolute;
         left:0;
+        bottom: 0; 
+        margin-bottom: 22vh;       
+
+        
     }
 
     /* .card .card-img > img {

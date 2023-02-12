@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import { FaInstagram, FaFacebookF , FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaMediumM , FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,15 +10,13 @@ const Footer = () => {
             <ul className='permalinks'>
                     <li><a href = '#'>Home</a></li>
                     <li><a href = '#projects'>Projects</a></li>
-                    <li><a href = '#contact'>Contact Me</a></li>
+                    <li><a href = 'mailto:shrutibendale@gmail.com'>Contact Me</a></li>
             </ul>
 
             <div className="footer_socials">
-                    <a href="https://github.com/ShrutiBendale"><FaGithub/></a>
-                    <a href="https://www.linkedin.com/in/shrutibendale"><FaLinkedin/></a>
-                    <a href="https://www.instagram.com/shrutibendale/"><FaInstagram/></a>
-                    <a href="https://www.facebook.com/shruti.bendale.3/"><FaFacebookF/></a>
-                    
+                    <a href="https://github.com/ShrutiBendale" target="_blank"><FaGithub/></a>
+                    <a href="https://www.linkedin.com/in/shrutibendale" target="_blank"><FaLinkedin/></a>
+                    <a href="https://medium.com/@shrutibendale" target="_blank"><FaMediumM/></a>
             </div>
         </div>
 

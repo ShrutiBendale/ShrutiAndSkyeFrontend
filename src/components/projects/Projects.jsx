@@ -20,8 +20,7 @@ const Projects = () => {
                   <img src={project1} alt="project 1" />
                 </div> 
                 <div className="card-text">
-                  <p>This project is currently under works, please check back in a couple of days :&#41;<br/>
-                  In the meantime, follow the progress of this project on my GitHub.</p>
+                  <p>A full-stack music streaming web app created using React on the frontend and the backend is hosted on AWS using API Gateway, Lambda functions and DynamoDB. </p>
                 </div>
                 <div className="card-link-wrapper">
                   <a href="http://melodize.shrutiandskye.com" target="_blank" className="card-link">Live Demo</a>
